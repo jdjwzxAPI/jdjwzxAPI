@@ -41,10 +41,10 @@ void print(char a) { //输出字符串 简称：pts
 void pt(char a) { //输出字符串
 	cout<<a<<endl;
 }
-void print(long long a) { //输出长整形 简称：pts
+void print(long int a) { //输出长整形 简称：pts
 	cout<<a<<endl;
 }
-void pt(long long a) { //输出长整形
+void pt(long int a) { //输出长整形
 	cout<<a<<endl;
 }
 void print(string a,string b) { //输出拼接字符串 简称：pts               
@@ -112,13 +112,13 @@ void msp(string &a,string &b) { //交换函数 ！！！
 	a=b;
 	b=temp;
 }
-void mswap(long long &a,long long &b) { //交换函数 ！！！ 简称：mps
-	long long temp=a;
+void mswap(long int &a,long int &b) { //交换函数 ！！！ 简称：mps
+	long int temp=a;
 	a=b;
 	b=temp;
 }
-void msp(long long &a,long long &b) { //交换函数 ！！！
-	long long temp=a;
+void msp(long int &a,long int &b) { //交换函数 ！！！
+	long int temp=a;
 	a=b;
 	b=temp;
 }
@@ -208,10 +208,10 @@ string mcompare(string a,string b){//比较a和b 简称：mcp
 string mcp(string a,string b){
 	return a>b?a:b;
 }
-long long mcompare(long long a,long long b){//比较a和b 简称：mcp 
+long int mcompare(long int a,long int b){//比较a和b 简称：mcp 
 	return a>b?a:b;
 }
-long long mcp(long long a,long long b){
+long int mcp(long int a,long int b){
 	return a>b?a:b;
 }
 
@@ -237,12 +237,50 @@ void input(char &a) { //输入字符 简称：ipt
 void ipt(char &a) { //输入字符
 	cin>>a;
 }
-void input(long long &a) { //输入长整形 简称：ipt 
+void input(long int &a) { //输入长整形 简称：ipt 
 	cin>>a;
 }
-void ipt(long long &a) { //输入长整形
+void ipt(long int &a) { //输入长整形
 	cin>>a;
 }
-
-
+int inputint(){//输入整形 简称：ipti
+	int a;
+	cin>>a;
+	return a;
+}
+int ipti(){ //输入整形
+	int a;
+	cin>>a;
+	return a;
+}
+char inputchar(){//输入字符 简称:iptc 
+	char a;
+	cin>>a;
+	return a;
+}
+char iptc(){//输入字符
+	char a;
+	cin>>a;
+	return a;
+}
+string inputstring(){//输入字符串 简称:ipts 
+	string a;
+	cin>>a;
+	return a;
+}
+string ipts(){//输入字符串 
+	string a;
+	cin>>a;
+	return a;
+}
+long int inputlongint(){//输入长整形 简称：iptl 
+	long int a;
+	cin>>a;
+	return a;
+}
+long int iptl(){ //输入长整形
+	long int a;
+	cin>>a;
+	return a;
+}
 
