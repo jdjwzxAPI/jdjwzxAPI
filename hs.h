@@ -3,49 +3,73 @@
 #include<windows.h>
 using namespace std;
 //by jdjwzxAPI
-//Ğ´ÁËÕâÃ´¾Ã£¡£¡£¡£¡£¡£¡£¡£¡£¡£¡£¡£¡£¡£¡
-//ÂèÂèÔÙÒ²²»ÓÃµ£ĞÄÎÒĞ´²»ºÃC++À²£¡£¡£¡£¡£¡£¡£¡ 
+//å†™äº†è¿™ä¹ˆä¹…ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼
+//å¦ˆå¦ˆå†ä¹Ÿä¸ç”¨æ‹…å¿ƒæˆ‘å†™ä¸å¥½C++å•¦ï¼ï¼ï¼ï¼ï¼ï¼ï¼ 
 
 
 
 
 
-//printÀà 
-void print(string a) { //Êä³ö×Ö·û´® ¼ò³Æ£ºpts
+//printç±» 
+void print(string a) { //è¾“å‡ºå­—ç¬¦ä¸² ç®€ç§°ï¼špts
 	cout<<a<<endl;
 }
-void pt(string a) { //Êä³ö×Ö·û´®
+void pt(string a) { //è¾“å‡ºå­—ç¬¦ä¸²
 	cout<<a<<endl;
 }
-void print(int a[],int len) { //Êä³öÊı×é£¡£¡£¡ ¼ò³Æ£ºpt
+void print(int a[],int len) { //è¾“å‡ºæ•°ç»„ï¼ï¼ï¼ ç®€ç§°ï¼špt
 	for(int i=0; i<len; i++) {
 		cout<<a[i];
 	}
 	cout<<endl;
 }
-void pt(int a[],int len) { //Êä³öÊı×é£¡£¡£¡
+void pt(int a[],int len) { //è¾“å‡ºæ•°ç»„ï¼ï¼ï¼
 	for(int i=0; i<len; i++) {
 		cout<<a[i];
 	}
 	cout<<endl;
 }
-void print(int a) { //Êä³ö×Ö·û´® ¼ò³Æ£ºpts
+void print(int a) { //è¾“å‡ºæ•´å½¢ ç®€ç§°ï¼špts
 	cout<<a<<endl;
 }
-void pt(int a) { //Êä³ö×Ö·û´®
+void pt(int a) { //è¾“å‡ºæ•´å½¢
 	cout<<a<<endl;
 }
-void print(char a) { //Êä³ö×Ö·û´® ¼ò³Æ£ºpts
+void print(char a) { //è¾“å‡ºå­—ç¬¦ä¸² ç®€ç§°ï¼špts
 	cout<<a<<endl;
 }
-void pt(char a) { //Êä³ö×Ö·û´®
+void pt(char a) { //è¾“å‡ºå­—ç¬¦ä¸²
 	cout<<a<<endl;
 }
-void print(long long a) { //Êä³ö×Ö·û´® ¼ò³Æ£ºpts
+void print(long long a) { //è¾“å‡ºé•¿æ•´å½¢ ç®€ç§°ï¼špts
 	cout<<a<<endl;
 }
-void pt(long long a) { //Êä³ö×Ö·û´®
+void pt(long long a) { //è¾“å‡ºé•¿æ•´å½¢
 	cout<<a<<endl;
+}
+void print(string a,string b) { //è¾“å‡ºæ‹¼æ¥å­—ç¬¦ä¸² ç®€ç§°ï¼špts               
+		cout<<a<<b<<endl;
+}
+void pt(string a,string b) { //è¾“å‡ºæ‹¼æ¥å­—ç¬¦ä¸²
+		cout<<a<<b<<endl;
+}
+void print(string a,string b,string c) { //è¾“å‡ºæ‹¼æ¥å­—ç¬¦ä¸² ç®€ç§°ï¼špts               
+		cout<<a<<b<<c<<endl;
+}
+void pt(string a,string b,string c) { //è¾“å‡ºæ‹¼æ¥å­—ç¬¦ä¸²
+		cout<<a<<b<<c<<endl;
+}
+void print(string a,string b,string c,string d) { //è¾“å‡ºæ‹¼æ¥å­—ç¬¦ä¸² ç®€ç§°ï¼špts               
+		cout<<a<<b<<c<<d<<endl;
+}
+void pt(string a,string b,string c,string d) { //è¾“å‡ºæ‹¼æ¥å­—ç¬¦ä¸²
+		cout<<a<<b<<c<<d<<endl;
+}
+void print(string a,string b,string c,string d,string e) { //è¾“å‡ºæ‹¼æ¥å­—ç¬¦ä¸² ç®€ç§°ï¼špts               
+		cout<<a<<b<<c<<d<<e<<endl;
+}
+void pt(string a,string b,string c,string d,string e) { //è¾“å‡ºæ‹¼æ¥å­—ç¬¦ä¸²
+		cout<<a<<b<<c<<d<<e<<endl;
 }
 
 
@@ -57,44 +81,43 @@ void pt(long long a) { //Êä³ö×Ö·û´®
 
 
 
-
-//swapÀà 
-void mswap(int &a,int &b) { //½»»»º¯Êı £¡£¡£¡ ¼ò³Æ£ºmps
+//swapç±» 
+void mswap(int &a,int &b) { //äº¤æ¢å‡½æ•° ï¼ï¼ï¼ ç®€ç§°ï¼šmps
 	int temp=a;
 	a=b;
 	b=temp;
 }
-void msp(int &a,int &b) { //½»»»º¯Êı £¡£¡£¡
+void msp(int &a,int &b) { //äº¤æ¢å‡½æ•° ï¼ï¼ï¼
 	int temp=a;
 	a=b;
 	b=temp;
 }
-void mswap(char &a,char &b) { //½»»»º¯Êı £¡£¡£¡ ¼ò³Æ£ºmps
+void mswap(char &a,char &b) { //äº¤æ¢å‡½æ•° ï¼ï¼ï¼ ç®€ç§°ï¼šmps
 	char temp=a;
 	a=b;
 	b=temp;
 }
-void msp(char &a,char &b) { //½»»»º¯Êı £¡£¡£¡
+void msp(char &a,char &b) { //äº¤æ¢å‡½æ•° ï¼ï¼ï¼
 	char temp=a;
 	a=b;
 	b=temp;
 }
-void mswap(string &a,string &b) { //½»»»º¯Êı £¡£¡£¡ ¼ò³Æ£ºmps
+void mswap(string &a,string &b) { //äº¤æ¢å‡½æ•° ï¼ï¼ï¼ ç®€ç§°ï¼šmps
 	string temp=a;
 	a=b;
 	b=temp;
 }
-void msp(string &a,string &b) { //½»»»º¯Êı £¡£¡£¡
+void msp(string &a,string &b) { //äº¤æ¢å‡½æ•° ï¼ï¼ï¼
 	string temp=a;
 	a=b;
 	b=temp;
 }
-void mswap(long long &a,long long &b) { //½»»»º¯Êı £¡£¡£¡ ¼ò³Æ£ºmps
+void mswap(long long &a,long long &b) { //äº¤æ¢å‡½æ•° ï¼ï¼ï¼ ç®€ç§°ï¼šmps
 	long long temp=a;
 	a=b;
 	b=temp;
 }
-void msp(long long &a,long long &b) { //½»»»º¯Êı £¡£¡£¡
+void msp(long long &a,long long &b) { //äº¤æ¢å‡½æ•° ï¼ï¼ï¼
 	long long temp=a;
 	a=b;
 	b=temp;
@@ -109,8 +132,8 @@ void msp(long long &a,long long &b) { //½»»»º¯Êı £¡£¡£¡
 
 
 
-//ÅÅĞòÀà 
-void maopao(int a[],int len) { //²»ÓÃ´«Èë¸ü¸ÄÊı×é£¡£¡£¡£¡ ¼ò³Æ£ºmppx
+//æ’åºç±» 
+void maopao(int a[],int len) { //ä¸ç”¨ä¼ å…¥æ›´æ”¹æ•°ç»„ï¼ï¼ï¼ï¼ ç®€ç§°ï¼šmppx
 	int ls;
 	for(int j=(len-1); j>0; j--) {
 		for(int i=0; i<j; i++) {
@@ -121,7 +144,7 @@ void maopao(int a[],int len) { //²»ÓÃ´«Èë¸ü¸ÄÊı×é£¡£¡£¡£¡ ¼ò³Æ£ºmppx
 	}
 	print(a,len);
 }
-void maopao(int a[],int len,int &b) { //ĞèÒª´«ÈëĞèÒª¸ü¸ÄµÄÊı×é£¡£¡£¡£¡£¨¼ÇµÃ¼ÓÉÏ*£© ¼ò³Æ£ºmppx
+void maopao(int a[],int len,int &b) { //éœ€è¦ä¼ å…¥éœ€è¦æ›´æ”¹çš„æ•°ç»„ï¼ï¼ï¼ï¼ï¼ˆè®°å¾—åŠ ä¸Š*ï¼‰ ç®€ç§°ï¼šmppx
 	int ls;
 	for(int j=(len-1); j>0; j--) {
 		for(int i=0; i<j; i++) {
@@ -132,7 +155,7 @@ void maopao(int a[],int len,int &b) { //ĞèÒª´«ÈëĞèÒª¸ü¸ÄµÄÊı×é£¡£¡£¡£¡£¨¼ÇµÃ¼ÓÉÏ
 	}
 	b=*a;
 }
-void mppx(int a[],int len) { //²»ÓÃ´«Èë¸ü¸ÄÊı×é£¡£¡£¡£¡
+void mppx(int a[],int len) { //ä¸ç”¨ä¼ å…¥æ›´æ”¹æ•°ç»„ï¼ï¼ï¼ï¼
 	int ls;
 	for(int j=(len-1); j>0; j--) {
 		for(int i=0; i<j; i++) {
@@ -143,7 +166,7 @@ void mppx(int a[],int len) { //²»ÓÃ´«Èë¸ü¸ÄÊı×é£¡£¡£¡£¡
 	}
 	print(a,len);
 }
-void mppx(int a[],int len,int &b) { //ĞèÒª´«ÈëĞèÒª¸ü¸ÄµÄÊı×é£¡£¡£¡£¡£¨¼ÇµÃ¼ÓÉÏ*£© 
+void mppx(int a[],int len,int &b) { //éœ€è¦ä¼ å…¥éœ€è¦æ›´æ”¹çš„æ•°ç»„ï¼ï¼ï¼ï¼ï¼ˆè®°å¾—åŠ ä¸Š*ï¼‰ 
 	int ls;
 	for(int j=(len-1); j>0; j--) {
 		for(int i=0; i<j; i++) {
@@ -166,30 +189,60 @@ void mppx(int a[],int len,int &b) { //ĞèÒª´«ÈëĞèÒª¸ü¸ÄµÄÊı×é£¡£¡£¡£¡£¨¼ÇµÃ¼ÓÉÏ*£
 
 
 
-//±È½ÏÀà 
-int mcompare(int a,int b){//±È½ÏaºÍb ¼ò³Æ£ºmcp 
+//æ¯”è¾ƒç±» 
+int mcompare(int a,int b){//æ¯”è¾ƒaå’Œb ç®€ç§°ï¼šmcp 
 	return a>b?a:b;
 }
-int mcp(int a,int b){
+int mcp(int a,int b ){
 	return a>b?a:b;
 }
-char mcompare(char a,char b){//±È½ÏaºÍb ¼ò³Æ£ºmcp 
+char mcompare(char a,char b){//æ¯”è¾ƒaå’Œb ç®€ç§°ï¼šmcp 
 	return (int)a>(int)b?a:b;
 }
 char mcp(char a,char b){
 	return (int)a>(int)b?a:b;
 }
-string mcompare(string a,string b){//±È½ÏaºÍb ¼ò³Æ£ºmcp 
+string mcompare(string a,string b){//æ¯”è¾ƒaå’Œb ç®€ç§°ï¼šmcp 
 	return a>b?a:b;
 }
 string mcp(string a,string b){
 	return a>b?a:b;
 }
-long long mcompare(long long a,long long b){//±È½ÏaºÍb ¼ò³Æ£ºmcp 
+long long mcompare(long long a,long long b){//æ¯”è¾ƒaå’Œb ç®€ç§°ï¼šmcp 
 	return a>b?a:b;
 }
 long long mcp(long long a,long long b){
 	return a>b?a:b;
 }
+
+
+
+
+//inputç±»
+ void input(string &a) { //è¾“å…¥å­—ç¬¦ä¸² ç®€ç§°ï¼šipt 
+	cin>>a;
+}
+void ipt(string &a) { //è¾“å…¥å­—ç¬¦ä¸²
+	cin>>a;
+}
+void input(int &a) { //è¾“å…¥æ•´å½¢ ç®€ç§°ï¼šipt 
+	cin>>a;
+}
+void ipt(int &a) { //è¾“å…¥æ•´å½¢
+	cin>>a;
+}
+void input(char &a) { //è¾“å…¥å­—ç¬¦ ç®€ç§°ï¼šipt 
+	cin>>a;
+}
+void ipt(char &a) { //è¾“å…¥å­—ç¬¦
+	cin>>a;
+}
+void input(long long &a) { //è¾“å…¥é•¿æ•´å½¢ ç®€ç§°ï¼šipt 
+	cin>>a;
+}
+void ipt(long long &a) { //è¾“å…¥é•¿æ•´å½¢
+	cin>>a;
+}
+
 
 
